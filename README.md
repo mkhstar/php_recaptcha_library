@@ -1,8 +1,7 @@
 ### PHP GOOGLE RECAPTCHA CLASS
 
      
-     ```php
-        <?php
+     ```
      $recaptcha = new Recaptcha($url, $url, $post_var, $secret, $response);
 
      $recaptcha_response = $recaptcha->initialize();
@@ -15,4 +14,3 @@
      }
      
     ```
-##### Copyright ©2018 Kusi Musah Hussein
