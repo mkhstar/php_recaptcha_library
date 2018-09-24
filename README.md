@@ -2,7 +2,7 @@
 
      
      ```
-     $recaptcha = new Recaptcha($url, $url, $post_var, $secret, $response);
+     $recaptcha = new Recaptcha($url, $post_var, $secret, $response);
 
      $recaptcha_response = $recaptcha->initialize();
 
