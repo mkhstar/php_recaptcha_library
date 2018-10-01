@@ -9,11 +9,11 @@ class Recaptcha {
     private $secret = '';
     private $response = '';
     private $post_var = '';
-    public function __construct($url, $post_var, $secret, $response) {
-        $this->url = $url;
+    public function __construct($post_var, $secret, $response, $url= 'https://www.google.com/recaptcha/api/siteverify' ) {
         $this->secret = $secret;
         $this->response = $response;
         $this->post_var = $post_var;
+        $this->url = $url;
     }
     public function initialize() {
         // CURL IS BEING USED FOR POST REQUEST
