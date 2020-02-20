@@ -1,7 +1,7 @@
 ### PHP GOOGLE RECAPTCHA CLASS
 
      
-     ```
+     ```php
      $recaptcha = new Recaptcha($post_var, $secret, $response);
 
      $recaptcha_response = $recaptcha->initialize();
